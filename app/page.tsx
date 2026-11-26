@@ -14,7 +14,7 @@ export default function Home() {
   // Lo que el usuario escribe
   const [algoritmo, setAlgoritmo] = useState<Algoritmo>("FIFO");
   const [numMarcos, setNumMarcos] = useState(3);
-  const [refsTexto, setRefsTexto] = useState("4,2,3,1,4,5,6,2,1,7");
+  const [refsTexto, setRefsTexto] = useState("");
 
   // Lo que se calculó al pulsar "Calcular"
   const [resultado, setResultado] = useState<Resultado | null>(null);
